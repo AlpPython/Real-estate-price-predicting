@@ -1,6 +1,6 @@
 # Real-estate-price-predicting
 You can find original database via this link and then run all kernels in ipynb file 
-to get the same results (all kernels had comments about their destination):
+to get the same results (all kernels had comments about their destination) after saving original file like local file on your computer:
 https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
 
 This project provides categorical boosting model for US real estate price predictinng. 
@@ -26,3 +26,6 @@ I used CatBoost model for combining categorical and numerical independent variet
 I have played with different tree depth in ensamble method learning and with the different number of learning interactions
 Optimum was found with maximum tree depth equal to 16 and 1000 interactions with 0.1 learning velosity
 It had 0.75 R-squared coefficiet which means that this model explains 3/4 of amarican real estate prices variety
+
+Also I had tried kernel methods (including RBF), but thei accuracy was quite bad
+In the end of added file you can enter your own data and check the model result
